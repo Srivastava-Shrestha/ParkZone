@@ -1,4 +1,5 @@
 # ParkZone
+ParkZone is a multi-user platform that helps admins manage parking lots and spots while allowing users to easily reserve, occupy, and release spaces. It features dashboards, real-time spot availability, automated allocation, reminders, and activity reports for smooth and efficient parking management.
 
 
 ## 💻 Built with
@@ -12,8 +13,6 @@
 - **Celery**: Handles asynchronous tasks.
 - **Redis**: Message broker and caching layer.
 - **Razorpay**: Integrates payment gateway.
-
-### Database
 - **SQLite**: A lightweight database.
 
 ### Frontend
@@ -23,13 +22,14 @@
 - **VueJS**: Builds dynamic, reactive user interfaces.
 - **Vite**: Provides fast development environment for VueJS.
 - **Bootstrap**: For responsive and mobile-first design.
+- **Lucide-Icons**: Provides a wide set of customizable icons.
 - **ChartJS**: Visualizes data through charts.
 
 ## ⚙️ Installation Steps
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/23f3000168/ParkZone.git
+git clone https://github.com/Srivastava-Shrestha/ParkZone.git
 ```
 
 ### 2. Change the working directory
@@ -96,8 +96,24 @@ In another terminal window, run the Celery Beat scheduler:
 celery -A run.celery beat --loglevel=info
 ```
 
- You are all set!
+🌟 You are all set!
+<hr>
+
+## 📸 Screenshots
+![ParkZone1](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone1.png)
+![ParkZone2](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone2.png)
+![ParkZone3](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone3.png)
+![ParkZone4](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone4.png)
+![ParkZone5](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone5.png)
+![ParkZone6](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone6.png)
+![ParkZone7](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone7.png)
+![ParkZone8](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone8.png)
+![ParkZone9](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone9.png)
+![ParkZone10](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone10.png)
+![ParkZone11](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone11.png)
+![ParkZone12](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone12.png)
+
 <hr>
 <h3 align="center">
-Thank You 
+Thank You 🫡
 </h3>
