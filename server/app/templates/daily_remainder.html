@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Lot Notification</title>
+    <style>
+      .wrapper {
+        max-width: 550px;
+        margin: auto;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      }
+
+      .header {
+        background: #374785;
+        color: #fff;
+        padding: 20px 30px;
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .content {
+        padding: 30px;
+      }
+
+      .lot-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+
+      .lot-table td {
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .lot-table td:first-child {
+        font-weight: bold;
+        width: 40%;
+        color: #555;
+      }
+
+
+
+      .cta {
+        margin-top: 25px;
+        text-align: center;
+      }
+
+      .cta a {
+        background-color: #4CAF50;
+        padding: 12px 28px;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        display: inline-block;
+      }
+
+      .footer {
+        padding: 20px 30px;
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">🚗 New Lot Available!</div>
+      <div class="content">
+        <p>Hello {{ user.username }},</p>
+        <p>We've just added a new parking lot near you. Here's a quick look:</p>
+
+        <table class="lot-table">
+          <tr>
+            <td>Name</td>
+            <td>{{ lot.prime_location }}</td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>{{ lot.address }}</td>
+          </tr>
+          <tr>
+            <td>Available Spots</td>
+            <td>{{ lot.no_of_spots }}</td>
+          </tr>
+          <tr>
+            <td>Created At</td>
+            <td>{{ lot.created_at.strftime('%d %b %Y, %I:%M %p') }}</td>
+          </tr>
+        </table>
+
+        <div class="cta">
+          <a href="{{ url }}">Check It Out</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        &copy; 2025 ParkZone. Built with purpose. Park with ease.
+      </div>
+    </div>
+  </body>
+</html>

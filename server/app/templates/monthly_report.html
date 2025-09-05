@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Monthly Report</title>
+    <style>
+      .wrapper {
+        max-width: 550px;
+        margin: auto;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      }
+
+      .header {
+        background: #374785;
+        color: #fff;
+        padding: 20px 30px;
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .content {
+        padding: 30px;
+      }
+
+      .report-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+
+      .report-table td {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .report-table td:first-child {
+        font-weight: bold;
+        width: 45%;
+        color: #555;
+      }
+
+      .cta {
+        margin-top: 25px;
+        text-align: center;
+      }
+
+      .cta a {
+        background-color: #4CAF50;
+        padding: 12px 28px;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        display: inline-block;
+      }
+
+      .footer {
+        padding: 20px 30px;
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        background: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">📊 Monthly Parking Report</div>
+      <div class="content">
+        <p>Hello {{ user.username }},</p>
+        <p>Here's a summary of your parking activity for <strong>{{ report_month }}</strong>:</p>
+
+        <table class="report-table">
+          <tr>
+            <td>Most Visited Lot</td>
+            <td>{{ most_visited_lot }}</td>
+          </tr>
+          <tr>
+            <td>Total Reservations</td>
+            <td>{{ total_reservation }}</td>
+          </tr>
+          <tr>
+            <td>Total Cost</td>
+            <td>₹{{ monthly_cost }}</td>
+          </tr>
+        </table>
+
+      </div>
+
+      <div class="footer">
+        &copy; 2025 ParkZone. Built with purpose. Park with ease.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parking Export Summary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0f1a3d;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .export-card {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      background: linear-gradient(135deg, #1c2b5a, #091548);
+      border-radius: 20px;
+      border: 1px solid #2f3c71;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h2 {
+      margin: 0;
+      font-size: 26px;
+      color: #ffc107;
+    }
+
+    .description {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .description strong {
+      color: #93a2f3;
+    }
+
+    .button {
+      display: inline-block;
+      background: #ffffff;
+      color: #0f1a3d;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 13px;
+      color: #9faadb;
+    }
+
+    .footer p {
+      margin: 4px 0;
+    }
+
+    .divider {
+      border-top: 1px solid #4b568e;
+      margin: 20px auto;
+      width: 60%;
+    }
+  </style>
+</head>
+<body>
+  <div class="export-card">
+    <div class="header">
+      <h2>CSV Export Completed</h2>
+    </div>
+
+    <div class="description">
+      Hello,<br><br>
+      Your request to export <strong>parking spot usage data</strong> has been completed.<br><br>
+      The downloaded CSV contains:
+      <ul style="text-align:left; margin: 10px auto 20px; padding-left: 20px;">
+        <li>Reservation Id</li>
+        <li>Lot ID</li>
+        <li>Spot ID</li>
+        <li>Cost</li>
+        <li>Parking Timestamps</li>
+      </ul>
+      You may now access the file directly from your dashboard or check your email attachments.
+    </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="footer">
+      <p>Triggered via ParkZone Export Tool</p>
+      <p>Crafted with ❤️ by Team ParkZone</p>
+      <p>© 2025 All rights reserved</p>
+    </div>
+  </div>
+</body>
+</html>
