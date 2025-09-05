@@ -100,20 +100,18 @@ celery -A run.celery beat --loglevel=info
 <hr>
 
 ## 📸 Screenshots
-![ParkZone1](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone1.png)
-![ParkZone2](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone2.png)
-![ParkZone3](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone3.png)
-![ParkZone4](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone4.png)
-![ParkZone5](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone5.png)
-![ParkZone6](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone6.png)
-![ParkZone7](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone7.png)
-![ParkZone8](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone8.png)
-![ParkZone9](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone9.png)
-![ParkZone10](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone10.png)
-![ParkZone11](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone11.png)
-![ParkZone12](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone12.png)
+![ParkZone1](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone1.png)
+![ParkZone2](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone2.png)
+![ParkZone3](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone3.png)
+![ParkZone4](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone4.png)
+![ParkZone5](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone5.png)
+![ParkZone6](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone6.png)
+![ParkZone7](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone7.png)
+![ParkZone8](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone8.png)
+![ParkZone9](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone9.png)
+
 
 <hr>
 <h3 align="center">
-Thank You 🫡
+Thank You 🐻
 </h3>
