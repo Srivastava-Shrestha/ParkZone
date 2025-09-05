@@ -97,7 +97,7 @@ In another terminal window, run the Celery Beat scheduler:
 celery -A run.celery beat --loglevel=info
 ```
 
-🌟 You are all set!
+✨ You are all set!
 <hr>
 
 ## 📸 Screenshots
