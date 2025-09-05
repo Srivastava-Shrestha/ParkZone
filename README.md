@@ -1,6 +1,7 @@
 # ParkZone
 ParkZone is a multi-user platform that helps admins manage parking lots and spots while allowing users to easily reserve, occupy, and release spaces. It features dashboards, real-time spot availability, automated allocation, reminders, and activity reports for smooth and efficient parking management.
 
+![ParkZone1](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone1.png)
 
 ## 💻 Built with
 
@@ -100,7 +101,6 @@ celery -A run.celery beat --loglevel=info
 <hr>
 
 ## 📸 Screenshots
-![ParkZone1](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone1.png)
 ![ParkZone2](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone2.png)
 ![ParkZone3](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone3.png)
 ![ParkZone4](https://github.com/Srivastava-Shrestha/Assets/blob/main/ParkZone/ParkZone4.png)
